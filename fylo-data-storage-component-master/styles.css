@@ -75,7 +75,7 @@ body{
     display: flex;
     align-items: center;
     gap: 8px;
-    padding: 10px 15px;
+    padding: 12px 15px;
     position: absolute;
     z-index: 2;
     right: 25px;
@@ -153,3 +153,60 @@ body{
     color: hsl(228, 45%, 44%);
     color: white;
   }
+
+
+
+  @media (max-width:767px) {
+    .parent{
+         background-image: url("./images/bg-desktop.png");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    }
+    .container{
+        width: 90%;
+        flex-direction: column;
+        margin-inline: auto;
+        gap: 170px;
+    }
+    .left-box{
+        width: 100%;
+    }
+    .right-box{
+        width: 100%;
+    }
+    .store-left{
+        bottom: -30px;
+        right: 90px;
+        border-bottom-right-radius: 8px;
+    }
+    .attribution {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -25%);
+  }
+  }/* 
+  @media (max-width:375px) {
+    .parent{
+        display: none;
+    }
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .left-box{
+        width: 90%;
+    }
+    .right-box{
+        width: 90%;
+    }
+    .store-left{
+        bottom: -25px;
+    }
+  }
+ */
+
