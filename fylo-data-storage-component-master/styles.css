@@ -154,7 +154,12 @@ body{
     color: white;
   }
 
-
+ @media (max-width:1200px) {
+  
+    .container{
+        width: 90%;
+    }
+}
 
   @media (max-width:767px) {
     .parent{
